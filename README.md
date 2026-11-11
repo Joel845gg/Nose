@@ -3,7 +3,11 @@
 API en .NET 9 con ASP.NET Core, Entity Framework Core y SQLite. Permite consultar una cuenta de ahorro y registrar depósitos.
 
 ## Requisitos
-
+- dotnet new webapi --use-controllers -n CooperativaAp
+- http://localhost:5295/weatherforecast
+- dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 9.0.0
+- dotnet add package Swashbuckle.AspNetCore --version 7.2.0
+- http://localhost:5295/swagger/index.html
 - [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
 - Visual Studio Code o Visual Studio (opcional)
 - [DB Browser for SQLite](https://sqlitebrowser.org/) o la extensión SQLite Viewer de VS Code (opcional, para ver la base de datos)
